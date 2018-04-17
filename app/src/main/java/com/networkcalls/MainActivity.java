@@ -34,7 +34,8 @@ public class MainActivity extends AppCompatActivity implements AppConstants {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Gson gson = new Gson();
+
+        gson = new Gson();
 
         TextView textV = (TextView) findViewById(R.id.textV);
 
